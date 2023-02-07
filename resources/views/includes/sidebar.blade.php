@@ -15,6 +15,14 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                     Contact Us
                 </a>
+                <a class="nav-link" href="{{route('task.index')}}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                     Task List
+                </a>
+                <a class="nav-link" href="{{route('task.create')}}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                    Create Task
+                </a>
             </div>
         </div>
         <div class="sb-sidenav-footer">
